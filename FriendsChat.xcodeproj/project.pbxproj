@@ -3,18 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5228D78422B55EA3008D8DAA /* roomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5228D78322B55EA3008D8DAA /* roomsViewController.swift */; };
+		5228D78622B59D3A008D8DAA /* Rooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5228D78522B59D3A008D8DAA /* Rooms.swift */; };
+		5228D78822B5A863008D8DAA /* chatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5228D78722B5A863008D8DAA /* chatRoomViewController.swift */; };
 		52A4CB7422B40D6F00CB1F07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A4CB7322B40D6F00CB1F07 /* AppDelegate.swift */; };
 		52A4CB7622B40D6F00CB1F07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A4CB7522B40D6F00CB1F07 /* ViewController.swift */; };
 		52A4CB7922B40D6F00CB1F07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A4CB7722B40D6F00CB1F07 /* Main.storyboard */; };
 		52A4CB7B22B40D7300CB1F07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A4CB7A22B40D7300CB1F07 /* Assets.xcassets */; };
 		52A4CB7E22B40D7300CB1F07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A4CB7C22B40D7300CB1F07 /* LaunchScreen.storyboard */; };
+		52A4CB8D22B4477700CB1F07 /* formCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A4CB8C22B4477700CB1F07 /* formCell.swift */; };
+		52A9BF7422B858D3005B1FA1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52A9BF7322B858D3005B1FA1 /* GoogleService-Info.plist */; };
+		9093C8E1222579FCBE12B734 /* Pods_FriendsChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C93EC9BF461C959D6511376 /* Pods_FriendsChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C93EC9BF461C959D6511376 /* Pods_FriendsChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FriendsChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5228D78322B55EA3008D8DAA /* roomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roomsViewController.swift; sourceTree = "<group>"; };
+		5228D78522B59D3A008D8DAA /* Rooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rooms.swift; sourceTree = "<group>"; };
+		5228D78722B5A863008D8DAA /* chatRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatRoomViewController.swift; sourceTree = "<group>"; };
 		52A4CB7022B40D6F00CB1F07 /* FriendsChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendsChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A4CB7322B40D6F00CB1F07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52A4CB7522B40D6F00CB1F07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,10 @@
 		52A4CB7A22B40D7300CB1F07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52A4CB7D22B40D7300CB1F07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52A4CB7F22B40D7300CB1F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A4CB8C22B4477700CB1F07 /* formCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formCell.swift; sourceTree = "<group>"; };
+		52A9BF7322B858D3005B1FA1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Users/tariq/Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8C0E9AA3124ABD6249AE5F79 /* Pods-FriendsChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendsChat.release.xcconfig"; path = "Target Support Files/Pods-FriendsChat/Pods-FriendsChat.release.xcconfig"; sourceTree = "<group>"; };
+		B0A4A5B63663D9DC42A11DA0 /* Pods-FriendsChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendsChat.debug.xcconfig"; path = "Target Support Files/Pods-FriendsChat/Pods-FriendsChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9093C8E1222579FCBE12B734 /* Pods_FriendsChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				52A4CB7222B40D6F00CB1F07 /* FriendsChat */,
 				52A4CB7122B40D6F00CB1F07 /* Products */,
+				E2D8C2E70990C9198BAFA730 /* Pods */,
+				D34469BABE6A19A1B12A77BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +72,35 @@
 			isa = PBXGroup;
 			children = (
 				52A4CB7322B40D6F00CB1F07 /* AppDelegate.swift */,
+				52A9BF7322B858D3005B1FA1 /* GoogleService-Info.plist */,
 				52A4CB7522B40D6F00CB1F07 /* ViewController.swift */,
+				5228D78322B55EA3008D8DAA /* roomsViewController.swift */,
+				5228D78722B5A863008D8DAA /* chatRoomViewController.swift */,
 				52A4CB7722B40D6F00CB1F07 /* Main.storyboard */,
+				52A4CB8C22B4477700CB1F07 /* formCell.swift */,
 				52A4CB7A22B40D7300CB1F07 /* Assets.xcassets */,
 				52A4CB7C22B40D7300CB1F07 /* LaunchScreen.storyboard */,
 				52A4CB7F22B40D7300CB1F07 /* Info.plist */,
+				5228D78522B59D3A008D8DAA /* Rooms.swift */,
 			);
 			path = FriendsChat;
+			sourceTree = "<group>";
+		};
+		D34469BABE6A19A1B12A77BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C93EC9BF461C959D6511376 /* Pods_FriendsChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2D8C2E70990C9198BAFA730 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0A4A5B63663D9DC42A11DA0 /* Pods-FriendsChat.debug.xcconfig */,
+				8C0E9AA3124ABD6249AE5F79 /* Pods-FriendsChat.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52A4CB8222B40D7300CB1F07 /* Build configuration list for PBXNativeTarget "FriendsChat" */;
 			buildPhases = (
+				5A96A5BA2E44B5716EB8C74D /* [CP] Check Pods Manifest.lock */,
 				52A4CB6C22B40D6F00CB1F07 /* Sources */,
 				52A4CB6D22B40D6F00CB1F07 /* Frameworks */,
 				52A4CB6E22B40D6F00CB1F07 /* Resources */,
+				C43BAC2020E9672EC0385706 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52A4CB7E22B40D7300CB1F07 /* LaunchScreen.storyboard in Resources */,
+				52A9BF7422B858D3005B1FA1 /* GoogleService-Info.plist in Resources */,
 				52A4CB7B22B40D7300CB1F07 /* Assets.xcassets in Resources */,
 				52A4CB7922B40D6F00CB1F07 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +172,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A96A5BA2E44B5716EB8C74D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FriendsChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C43BAC2020E9672EC0385706 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FriendsChat/Pods-FriendsChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FriendsChat/Pods-FriendsChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FriendsChat/Pods-FriendsChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52A4CB6C22B40D6F00CB1F07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A4CB8D22B4477700CB1F07 /* formCell.swift in Sources */,
 				52A4CB7622B40D6F00CB1F07 /* ViewController.swift in Sources */,
 				52A4CB7422B40D6F00CB1F07 /* AppDelegate.swift in Sources */,
+				5228D78822B5A863008D8DAA /* chatRoomViewController.swift in Sources */,
+				5228D78422B55EA3008D8DAA /* roomsViewController.swift in Sources */,
+				5228D78622B59D3A008D8DAA /* Rooms.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +368,7 @@
 		};
 		52A4CB8322B40D7300CB1F07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0A4A5B63663D9DC42A11DA0 /* Pods-FriendsChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +387,7 @@
 		};
 		52A4CB8422B40D7300CB1F07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C0E9AA3124ABD6249AE5F79 /* Pods-FriendsChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
